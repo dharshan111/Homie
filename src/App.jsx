@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "./components/Headersection/Header";
-import Hero from "./components/HeroSection/Hero.jsx";
+// import Hero from "./components/HeroSection/Hero.jsx";
 import "./App.css";
 import Company from "./components/Company/Company";
 import Residencies from "./components/Residencies/Residencies";
@@ -26,7 +26,7 @@ const App = () => {
         <div>
           <div className="white-gradient" />
           <Header />
-          <Hero />
+          {/* <Hero /> */}
         </div>
         <Company />
         <Residencies />
