@@ -1,5 +1,5 @@
 import React from "react";
-import "./value.css";
+import "./Value.css";
 
 const Value = () => {
   return (
