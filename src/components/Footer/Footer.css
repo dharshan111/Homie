@@ -1,0 +1,31 @@
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.footer-information-content{
+    gap: 5px;
+}
+
+.footer-last-content{
+    display: flex;
+    gap: 20px;
+    font-weight: 500;
+}
+
+
+@media(max-width:1001px){
+    .footer-container{
+        display: flex;
+        gap: 20px;
+        flex-direction: column;
+    }
+}
+
+@media(max-width:640px){
+    .footer-last-content{
+        display: flex;
+        flex-direction: column;
+    }
+}

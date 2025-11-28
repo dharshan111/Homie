@@ -1,0 +1,32 @@
+.Getstart-main-content{
+    background: var(--blue-gradient);
+    border-radius: 20px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+    align-items: center;
+    border: 3px solid rgba(255, 255, 255, 0.12);
+    margin-top: 10px;
+    width: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.Getstart-title{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.secondText{
+    color: rgb(206, 201, 201);
+    font-size: 0.9rem;
+}
+
+
+.secondText:hover{
+    color: #ffffff;
+}
+
+.getstart-button{
+    border: 1px solid #ffffff;
+}

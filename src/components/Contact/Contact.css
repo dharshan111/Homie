@@ -1,0 +1,52 @@
+
+.contact-double-content{
+   display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    gap: 30px;
+    width: fit-content;
+}
+
+.contact-logs{
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact-1{
+    background: white;
+    padding: 20px;
+    justify-content: center;
+    gap:15px;
+    border-radius: 10px;
+    align-items: flex-start; /* because flexColStart */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);   
+}
+
+.contact-image-container>img{
+    width: 100%;
+    height: 100%;
+}
+
+.contact-image-container{
+    width: 415px;
+    height: 388px;
+    overflow: hidden;
+    border-radius: 25px 118px 25px 118px;
+    border: 7px solid rgba(255, 255, 255, 0.12);
+}
+
+
+@media(max-width:640px){
+    .contact-image-container{
+        margin-top: 20px;
+        width: 100%;
+        height: 400px;
+    }
+    .contact-double-content {
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
+        gap: 8px;
+        padding:20px;
+        width: 100%;
+    }
+}
+
