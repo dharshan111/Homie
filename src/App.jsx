@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "./components/Headersection/Header";
-import Hero from "./components/HeroSection/Hero";
+import Hero from "./components/HeroSection/Hero.jsx";
 import "./App.css";
 import Company from "./components/Company/Company";
 import Residencies from "./components/Residencies/Residencies";
