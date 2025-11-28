@@ -4,7 +4,7 @@ import Header from "./components/Headersection/Header";
 import "./App.css";
 import Company from "./components/Company/Company";
 import Residencies from "./components/Residencies/Residencies";
-import Value from "./Utils/Value/Value";
+// import Value from "./Utils/Value/Value";
 import Contact from "./components/Contact/Contact";
 import Getstart from "./components/Getstart/Getstart";
 import Footer from "./components/Footer/Footer";
@@ -30,7 +30,7 @@ const App = () => {
         </div>
         <Company />
         <Residencies />
-        <Value />
+        {/* <Value /> */}
         <Contact />
         <Getstart />
         <Footer />
